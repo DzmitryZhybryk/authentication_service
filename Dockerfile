@@ -8,4 +8,4 @@ COPY ./app/ /code/app/
 RUN pip install pdm
 RUN python -m pdm install
 
-CMD pdm run python app/main.py
+#CMD pdm run python app/main.py

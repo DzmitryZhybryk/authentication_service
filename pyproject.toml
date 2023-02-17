@@ -2,16 +2,19 @@
 [tool.pdm]
 
 [project]
-name = ""
-version = ""
+name = "Aniblog"
+version = "1.0.0"
 description = ""
 authors = [
-    {name = "Dzmitry Zhybryk", email = "d.zhibrik@i-digit.ru"},
+    {name = "Dzmitry Zhybryk", email = "mr.zhybryk@gmail.com"},
 ]
 dependencies = [
     "grpcio>=1.51.1",
     "grpcio-tools>=1.51.1",
-    "pydantic>=1.10.4",
+    "pydantic[dotenv]>=1.10.5",
+    "sqlalchemy>=2.0.3",
+    "python-jose>=3.3.0",
+    "psycopg[binary]>=3.1.8",
 ]
 requires-python = ">=3.10"
 license = {text = "MIT"}
